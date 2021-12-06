@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 32em;
+    height: 100vh;
+}
+
+.cards {
+    margin: 10px;
+    height: 250px;
+    width: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65, 36, 168);
+    border-radius: 10px;
+    color: white;
+    font-size: 4em;
+}
+
+.font{
+    font-size: 4em;
+}
